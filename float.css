@@ -1,0 +1,21 @@
+body img{
+    width: 20%;
+
+}
+
+body p{
+    background: lightblue;
+}
+
+#img1{
+    width: 5%;
+    padding:15px 15px;
+    float: right;    
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+.cleared{
+    clear:right;
+}

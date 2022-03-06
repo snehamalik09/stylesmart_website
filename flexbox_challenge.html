@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <style>
+
+        .container{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 15px 10px;
+            margin: 5px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #container1,#container2,#container3{
+            width: 32.5%;
+            height: 200px; 
+        }
+        
+        .items{
+            border: 3px solid white;
+            background-color: chocolate;
+            color: white;
+            font-size: large;
+            font-weight: bolder;
+            
+        }
+
+        #container4,#container5,#container6,#container7{
+            width: 24%;
+            height:50px;
+        }
+
+        #container8,#container9,#container10,#container11,#container12{
+            width: 19%;
+            height:50px;
+        }
+
+        .insideitems1{
+            flex-direction: row;
+        }
+
+      
+    
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        
+        <div id="container1" class="items"> 1
+            <br>
+        <div class="insideitems" id="smallbox1"> 1 </div>
+        <div class="insideitems" id="smallbox2"> 2 </div>
+        <div class="insideitems" id="smallbox3"> 3 </div>
+    
+        </div>
+
+        <div id="container2" class="items"> 2</div>
+        <div id="container3" class="items"> 3</div>
+
+        <div id="container4" class="items">1</div>
+        <div id="container5" class="items">2</div>
+        <div id="container6" class="items">3</div>
+        <div id="container7" class="items">4</div>
+        <div id="container8" class="items">1</div>
+        <div id="container9" class="items">2</div>
+        <div id="container10" class="items">3</div>
+        <div id="container11" class="items">4</div>
+        <div id="container12" class="items">5</div>
+
+    </div>
+    
+</body>
+</html>

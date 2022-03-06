@@ -1,0 +1,16 @@
+*{
+    margin: 20px 20px;
+    padding: 25px 25px;
+}
+
+.box{
+
+    background-color: orange;
+    display:inline;
+    float:left;
+}
+
+@media all and (min-width:600){
+    .box{
+    background-color: red;
+}}
